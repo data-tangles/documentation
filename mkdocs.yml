@@ -21,7 +21,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/qman-being
+      link: https://github.com/data-tangles
 
 markdown_extensions:
   - pymdownx.highlight:
