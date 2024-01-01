@@ -2,15 +2,15 @@
 
 The below steps will setup Postfix with Gmail SMTP to send emails. Gmail can be swapped out for your email provider of choice. In this tutorial we are using Ubuntu for the setup.
 
-## Install Postfix 
-
 Firstly, update the system packages
+
+## Update packages
 
 ```
 sudo apt-get update && sudo apt-get upgrade 
 ```
 
-Install the Postfix package 
+## Install Postfix package 
 
 ```
 sudo apt-get install postfix 
@@ -74,7 +74,7 @@ smtp_tls_security_level = encrypt
 smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt 
 ```
 
-Restart postfix 
+## Restart postfix 
 
 `sudo systemctl restart postfix`
 

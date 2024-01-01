@@ -14,7 +14,7 @@ Run the `mkfs.ext4` command against the new disk while specifying the partition 
 mkfs.ext4 /dev/sdb1
 ```
 
-## Mount new partition
+## Create mountpoint
 
 Create a new mountpoint directory for the partition in the `/mnt` directory
 
@@ -22,7 +22,7 @@ Create a new mountpoint directory for the partition in the `/mnt` directory
 mkdir /mnt/new-volume
 ```
 
-Finally, mount the new volume
+# Mount volume on mountpoint
 
 ```
 mount /dev/sdb1 /mnt/new-volume
