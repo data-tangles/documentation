@@ -18,13 +18,6 @@ theme:
     - content.code.copy
   language: en
 
-plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-committers:
-      repository: data-tangles/documentation
-      branch: main
-
 repo_name: data-tangles/documentation
 repo_url: https://github.com/data-tangles/documentation
 
