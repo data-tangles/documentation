@@ -38,8 +38,8 @@ jobs:
       - name: Install mkdocs-material 📁    
         run: pip install mkdocs-material
 
-      - name: Install Pillow and CairoSVG Packages 📦
-        run: pip install pillow cairosvg
+      - name: Install additional pip packages 📦
+        run: pip install pillow cairosvg mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin
 
       - name: Deploy to GitHub Pages 🚀 
         run: mkdocs gh-deploy --force

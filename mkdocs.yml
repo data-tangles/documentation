@@ -36,6 +36,11 @@ extra:
 plugins:
   - search
   - git-revision-date-localized
+  - git-authors
+  - git-committers:
+      repository: data-tangles/documentation
+      branch: main
+      enabled: !ENV [CI, false]
   - minify:
       minify_html: true
 
