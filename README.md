@@ -1,3 +1,5 @@
+[![deploy](https://github.com/data-tangles/documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/data-tangles/documentation/actions/workflows/deploy.yml)
+
 [![MkDocs](https://img.shields.io/badge/MkDocs-blue?style=for-the-badge&logo=github)](https://www.mkdocs.org/)
 
 [![HitCount](https://hits.dwyl.com/data-tangles/documentation.svg?style=for-the-badge&show=unique)](http://hits.dwyl.com/data-tangles/documentation)
