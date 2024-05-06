@@ -39,7 +39,7 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Install additional pip packages 📦
-        run: pip install pillow cairosvg mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin
+        run: pip install pillow cairosvg mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
 
       - name: Deploy to GitHub Pages 🚀 
         run: mkdocs gh-deploy --force
